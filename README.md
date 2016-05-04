@@ -1,24 +1,15 @@
-# README
+# Rails5勉強会用レポジトリ
+## お題 : 図書管理システム
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### システム要件
+- 本を複数登録できる
+  - 同じタイトルの本を複数蔵書している
+- ユーザを登録できる
+  - セキュアに
+- ユーザ認証できる
+  - ログイン
+  - ログアウト
+- ユーザは本を借りられる
+- タグを登録できる
+ - 推理小説、ライトノベルなど
+- 本にタグを複数つけられる
