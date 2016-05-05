@@ -10,10 +10,12 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5.x'
 gem 'jbuilder', '~> 2.0'
 # gem 'redis', '~> 3.0'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem 'rspec-rails', '~> 3.0'
 end
 
 group :development do
